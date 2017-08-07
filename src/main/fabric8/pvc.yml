@@ -1,0 +1,10 @@
+metadata:
+  annotations:
+    fabric8.io/target-platform: "kubernetes"
+  name: fabric8-docker-registry-storage
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
